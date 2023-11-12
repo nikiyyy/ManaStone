@@ -1,0 +1,51 @@
+body {
+    background-image: url('src/BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-box {
+    width: 40%;
+    height: 90%; /* Set the height as needed */
+    background-image: url('src/papir.png'); /* Set the path to your papir.png */
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 25px;
+	
+}
+
+.button-list li {
+    display: inline-block;
+    margin-left: 5px; /* Adjust the margin between buttons as needed */
+}
+
+.button-list button {
+    padding: 10px;
+    background-color: red; /* Green background color */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 10px;
+    cursor: pointer;
+}
+
+#button-text {
+	padding:20px;
+    margin-left: 70px;
+}
