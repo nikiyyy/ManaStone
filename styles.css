@@ -49,3 +49,26 @@ body {
 	padding:20px;
     margin-left: 70px;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%; /* Make the container take full height of the body */
+    padding: 20px; /* Add padding to the container if needed */
+	margin:auto;
+}
+
+.race-box {
+    width: 412px;
+    height: 412px;
+    background-color: red;
+    margin: 2.5%;
+	padding:50px;
+}
+.race-header {
+	background-color: red;
+	padding: 15px;
+	width: 100%;
+    font-size: 24px;
+}
