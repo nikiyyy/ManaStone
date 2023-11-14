@@ -1,12 +1,20 @@
 const buttonTextMap = {
     'DM': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim blandit volutpat maecenas. In iaculis nunc sed augue lacus viverra. Purus in massa tempor nec. Elit ut aliquam purus sit. Arcu risus quis varius quam quisque id diam vel. Viverra justo nec ultrices dui sapien eget mi proin. Elit ullamcorper dignissim cras tincidunt lobortis. Consectetur lorem donec massa sapien faucibus. Aliquam vestibulum morbi blandit cursus. Mauris in aliquam sem fringilla. Non blandit massa enim nec dui nunc mattis. Viverra adipiscing at in tellus integer. Diam in arcu cursus euismod quis viverra.',
-    'Resources': 'Content for Resources button',
-    'Rules': 'Content for Rules button',
-    'Character Creation': '<a href="races.html">Avalible races</a><br><a href="races.html">Avalible perks</a><br><a href="races.html">Classes and guides</a>',
-    'Wiki': 'Content for Wiki button',
+    'Rules': 'Dinking potion is a bonus action',
+    'Wiki': 'Content ffffor Wiki button',
 	'Stories': 'Content for stories button',
     'About': 'Content for About button',
 };
+
+function addFireEffect(element) {
+			element.classList.add("font-effect-fire");
+		}
+
+function removeFireEffect(element) {
+			element.classList.remove("font-effect-fire");
+		}
+
+
 
 function updateButtonText(button) {
     var buttonText = button.innerText;
@@ -35,21 +43,21 @@ function createElements() {
 	container.appendChild(document.createElement('br'));
 	
     var perksLink = document.createElement('a');
-    perksLink.href = 'perks.html';
+    perksLink.href = 'https://www.aidedd.org/dnd-filters/feats.php';
     perksLink.textContent = 'Available Feats';
     container.appendChild(perksLink);
     container.appendChild(document.createElement('br'));
 	container.appendChild(document.createElement('br'));
 	
 	var perksLink = document.createElement('a');
-    perksLink.href = 'perks.html';
+    perksLink.href = 'https://5ebackgrounds.com/';
     perksLink.textContent = 'Available Backgrounds';
     container.appendChild(perksLink);
     container.appendChild(document.createElement('br'));
 	container.appendChild(document.createElement('br'));
 	
     var classesLink = document.createElement('a');
-    classesLink.href = 'classes.html';
+    classesLink.href = 'https://rpgbot.net/dnd5/characters/classes/';
     classesLink.textContent = 'Available Classes and Guides';
     container.appendChild(classesLink);
     container.appendChild(document.createElement('br'));
@@ -77,15 +85,8 @@ function createElements() {
 	container.appendChild(document.createElement('br'));
 	
 	var classesLink = document.createElement('a');
-    classesLink.href = 'http://dnd5e.wikidot.com/spells';
-    classesLink.textContent = 'Potions';
-    container.appendChild(classesLink);
-    container.appendChild(document.createElement('br'));
-	container.appendChild(document.createElement('br'));
-	
-	var classesLink = document.createElement('a');
-    classesLink.href = 'http://dnd5e.wikidot.com/spells';
-    classesLink.textContent = 'weapons and equipment';
+    classesLink.href = 'https://www.aidedd.org/dnd-filters/magic-items.php';
+    classesLink.textContent = 'Items and Potions';
     container.appendChild(classesLink);
     container.appendChild(document.createElement('br'));
 	container.appendChild(document.createElement('br'));

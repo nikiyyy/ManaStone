@@ -1,3 +1,8 @@
+body, body * {
+	font-family: "Almendra", Georgia !important;
+	font-weight: bold;
+}
+
 body {
     background-image: url('src/BG.png');
     background-size: cover;
@@ -35,13 +40,12 @@ body {
 
 .button-list button {
     padding: 10px;
-    background-color: red; /* Green background color */
+	background-color: transparent; 
     border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-	border-radius: 10px;
     cursor: pointer;
 }
 
@@ -60,15 +64,27 @@ body {
 }
 
 .race-box {
-    width: 412px;
-    height: 412px;
+    width: 518px;
+    height: 518px;
     background-color: red;
     margin: 2.5%;
-	padding:50px;
+
 }
 .race-header {
 	background-color: red;
 	padding: 15px;
 	width: 100%;
     font-size: 24px;
+}
+
+#hb-race1 {
+	background-image: url('src/img-orc.jpg');
+	background-size: contain;
+}
+
+.race-sub-container{
+	background: rgba(255, 255, 255, 0.8);
+	margin: 25px;
+	width: 50%;
+	height: 80%;
 }

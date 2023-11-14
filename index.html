@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Manastone</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almendra&effect=fire">
     <link rel="stylesheet" href="styles.css">
 	<script src="script.js" defer></script>
 </head>
@@ -12,13 +12,12 @@
 <body>
 	<div class="red-box"> 
 		<ul class="button-list">
-			<li><button onclick="updateButtonText(this)">DM</button></li>
-            <li><button onclick="updateButtonText(this)">Resources</button></li>
-            <li><button onclick="updateButtonText(this)">Rules</button></li>
-            <li><button onclick="createElements()">Character Creation</button></li>
-            <li><button onclick="updateButtonText(this)">Wiki</button></li>
-			<li><button onclick="updateButtonText(this)">Stories</button></li>
-            <li><button onclick="updateButtonText(this)">About</button></li>
+			<li><button onmouseover="addFireEffect(this)", onmouseout="removeFireEffect(this)", onclick="updateButtonText(this)">DM</button></li>
+            <li><button onmouseover="addFireEffect(this)", onmouseout="removeFireEffect(this)", onclick="updateButtonText(this)">Rules</button></li>
+            <li><button onmouseover="addFireEffect(this)", onmouseout="removeFireEffect(this)", onclick="createElements()">Resources & Character Creation</button></li>
+            <li><button onmouseover="addFireEffect(this)", onmouseout="removeFireEffect(this)", onclick="updateButtonText(this)">Wiki</button></li>
+			<li><button onmouseover="addFireEffect(this)", onmouseout="removeFireEffect(this)", onclick="updateButtonText(this)">Stories</button></li>
+            <li><button onmouseover="addFireEffect(this)", onmouseout="removeFireEffect(this)", onclick="updateButtonText(this)">About</button></li>
 		</ul>
 		<p id="button-text"></p>
 	</div>
