@@ -68,7 +68,7 @@ body {
     height: 518px;
     background-color: red;
     margin: 2.5%;
-
+	border-radius: 15px;
 }
 .race-header {
 	background-color: red;
@@ -79,7 +79,20 @@ body {
 
 #hb-race1 {
 	background-image: url('src/img-orc.jpg');
-	background-size: contain;
+	background-size: 110%;
+
+}
+#hb-race2 {
+	background-image: url('src/img-prickman.jpg');
+	background-size: 120%;
+}
+#hb-race3 {
+	background-image: url('src/img-pigmen.jpg');
+	background-size: 130%;
+}
+#hb-race4 {
+	background-image: url('src/lesser-oni.jpg');
+	background-size: 140%;
 }
 
 .race-sub-container{
