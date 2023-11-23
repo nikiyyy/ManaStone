@@ -1,6 +1,6 @@
 const buttonTextMap = {
     'DM': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim blandit volutpat maecenas. In iaculis nunc sed augue lacus viverra. Purus in massa tempor nec. Elit ut aliquam purus sit. Arcu risus quis varius quam quisque id diam vel. Viverra justo nec ultrices dui sapien eget mi proin. Elit ullamcorper dignissim cras tincidunt lobortis. Consectetur lorem donec massa sapien faucibus. Aliquam vestibulum morbi blandit cursus. Mauris in aliquam sem fringilla. Non blandit massa enim nec dui nunc mattis. Viverra adipiscing at in tellus integer. Diam in arcu cursus euismod quis viverra.',
-    'Rules': 'Dinking potion is a bonus action',
+    'Rules': 'Dinking potion is a bonus action / If hit while flying you must make DC 8 constitution saving throw or fall from the sky / tashas custom orgin banned',
     'Wiki': 'Content ffffor Wiki button',
 	'Stories': 'Content for stories button',
     'About': 'Content for About button',

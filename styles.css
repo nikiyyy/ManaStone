@@ -91,12 +91,24 @@ body {
 	background-size: 130%;
 }
 #hb-race4 {
-	background-image: url('src/lesser-oni.jpg');
-	background-size: 140%;
+	background-image: url('src/img-kyoken.jpg');
+	background-size: 120%;
+}
+#hb-race5 {
+	background-image: url('src/img-rikona.jpg');
+	background-size: 125%;
+}
+#hb-race6 {
+	background-image: url('src/img-faun-folk.jpg');
+	background-size: 115%;
 }
 
+#hb-race7 {
+	background-image: url('src/img-half-minotaur.jpg');
+	background-size: 100%;
+}
 .race-sub-container{
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.5);
 	margin: 25px;
 	width: 50%;
 	height: 80%;
