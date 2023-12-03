@@ -102,9 +102,18 @@ body {
 	background-image: url('src/img-faun-folk.jpg');
 	background-size: 115%;
 }
-
 #hb-race7 {
 	background-image: url('src/img-half-minotaur.jpg');
+	background-size: 100%;
+}
+
+#hb-race8 {
+	background-image: url('src/img-chimera.jpg');
+	background-size: 100%;
+}
+
+#hb-race9 {
+	background-image: url('src/img-vulpes.jpg');
 	background-size: 100%;
 }
 .race-sub-container{
