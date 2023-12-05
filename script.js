@@ -1,6 +1,5 @@
 const buttonTextMap = {
-    'DM': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim blandit volutpat maecenas. In iaculis nunc sed augue lacus viverra. Purus in massa tempor nec. Elit ut aliquam purus sit. Arcu risus quis varius quam quisque id diam vel. Viverra justo nec ultrices dui sapien eget mi proin. Elit ullamcorper dignissim cras tincidunt lobortis. Consectetur lorem donec massa sapien faucibus. Aliquam vestibulum morbi blandit cursus. Mauris in aliquam sem fringilla. Non blandit massa enim nec dui nunc mattis. Viverra adipiscing at in tellus integer. Diam in arcu cursus euismod quis viverra.',
-    'Rules': 'Dinking potion is a bonus action / If hit while flying you must make DC 8 constitution saving throw or fall from the sky / tashas custom orgin banned',
+    'DM': 'WIP',
     'Wiki': 'Content ffffor Wiki button',
 	'Stories': 'Content for stories button',
     'About': 'Content for About button',
@@ -28,8 +27,28 @@ function updateButtonText(button) {
         document.getElementById('button-text').innerText = 'Selected Button: ' + buttonText;
     }
 }
+function createRules() {
+    var container = document.querySelector('#button-text');
 
-function createElements() {
+    // Clear existing contents of the container
+    container.innerHTML = '';
+
+    var racesLink = document.createElement('p');
+    racesLink.textContent = 'Drinking a potion is a bonus action';
+    container.appendChild(racesLink);
+	
+    var racesLink = document.createElement('p');
+    racesLink.textContent = 'If hit while flying you must make DC 8 constitution saving throw or fall from the sky';
+    container.appendChild(racesLink);
+	
+	var racesLink = document.createElement('p');
+    racesLink.textContent = 'Half natural armour bonus(rounded down) to a maxiumum of 2 to the existing armour you\'re wearing';
+    container.appendChild(racesLink);
+	
+}
+
+
+function createResources() {
     var container = document.querySelector('#button-text');
 
     // Clear existing contents of the container

@@ -116,6 +116,16 @@ body {
 	background-image: url('src/img-vulpes.jpg');
 	background-size: 100%;
 }
+
+#hb-race10 {
+	background-image: url('src/img-goatmen.jpg');
+	background-size: 100%;
+}
+
+#hb-race11 {
+	background-image: url('src/img-kobold.jpg');
+	background-size: 100%;
+}
 .race-sub-container{
 	background: rgba(255, 255, 255, 0.5);
 	margin: 25px;
