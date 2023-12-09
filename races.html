@@ -6,6 +6,7 @@
     <title>Races</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almendra&effect=fire">
     <link rel="stylesheet" href="styles.css">
+	<script src="script.js" defer></script>
 </head>
 
 <body>
@@ -15,142 +16,143 @@
 		</div>
 		<div class="container">
 			<div id="hb-race1", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race1')">👁</button>
+				<div id="sub-race1", class="race-sub-container">
 					<h2 class="race-title">Orc</h2>
 					<p class="race-flav-text">Savage Orcs, with tusks sharp as fate, carve their legend in the blood-soaked earth, embodying raw power and indomitable spirit.</p>
-					<br>
 					<p class="race-traits-header">Racial Traits</p>
 					<p class="race-traits">+3 Strength, +1 Constitution, -2 Intelligence, -1 Wisdom, Darkvision,Powerful Build , Menacing, Relentless Endurance, Savage Attacks, Chimpout - When you're crited you must use reaction to make an attack aginst a random taget around you</p>
 				</div>
 			</div>
 			<div  id="hb-race2", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race2')">👁</button>
+				<div id="sub-race2", class="race-sub-container">
 					<h2 class="race-title">Prick-men</h2>
 					<p class="race-flav-text">In the blistering deserts, where the sun's fury scorches the very soul, half-cactus warriors emerge, their bodies woven with prickly resilience. These arid nomads can endure the harshest trials.</p>
-					<br>
 					<p class="race-traits-header">Racial Traits</p>
 					<p class="race-traits">+3 Constitution, Survival and Nature prof.,Photosynthesis, poison resistance, Natural Spikes - When hit with an unarmed attack, bite or grappled target must make DC10 + your prof modifier or take 1d4 pearce damage per 4 levels, Natural Armour +12, armour must be propperly fitted before worn, mild regeneration 1hp per hour</p>
 				</div>
 			</div>
 			<div  id="hb-race3", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race3')">👁</button>
+				<div id="sub-race3", class="race-sub-container">
 					<h2 class="race-title">Pig-men</h2>
 					<p class="race-flav-text">From the endless dunes of the scorching desert, half-warthog warriors rise with tusks gleaming like desert stars. Barbaric and tenacious, these desert nomads embody the untamed spirit of the arid expanse</p>
-					<br>
 					<p class="race-traits-header">Racial Traits</p>
 					<p class="race-traits">+1 Strength, +1 Constitution,+ 1 Ability Score Increase,-1 Charisma, Menacing,Advantage Perception checks that involve your sense of smell. Powerful Build, tusk attack  hit:d20+prof+str/dmg:1d6+str modifier, Charge - if you move 20ft straight and hit the target with your tusks target takes extra 1d6dmg and must make DC11+your str modif. or be knocked prone, thick skin - absorb phisical and frost damage - prof modifier-1</p>
 				</div>
 			</div>
 			<div  id="hb-race4", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race4')">👁</button>
+				<div id="sub-race4", class="race-sub-container">
 					<h2 class="race-title">Lesser Oni - Kyōken</h2>
 					<p class="race-flav-text">Created by the wicked Onigami, the Oni race are cursed brutes, their forms twisted and their hearts veiled in shadow. Ruthless might, these malevolent creations are the embodiment of war</p>
-					<br>
 					<p class="race-traits-header">Racial Traits</p>
 					<p class="race-traits">+1 Con +2 Str or +2 Con +1 Str, Powerful Build ,to angry to die - upon reaching 0 health the oni can roll a health dice + prof modif to restore the amount of health but accumulate 1 level of exaustion</p>
 				</div>
 			</div>
 			<div  id="hb-race5", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race5')">👁</button>
+				<div id="sub-race5", class="race-sub-container">
 					<h2 class="race-title">Lesser Oni - Rikōna</h2>
 					<p class="race-flav-text">(red or black)Created by the wicked Onigami, Rikōna's sinister origins grant them an innate mastery over potent spells, weaving maleficent magic with unparalleled skill. These cunning beings, marked by their ominous aura, navigate the realms with a blend of ruthless efficiency and arcane brilliance, leaving a chilling legacy in the wake of their calculated endeavors."</p>
-					<br>
 					<p class="race-traits-header">Racial Traits</p>
 					<p class="race-traits">(white or blue)+1 Wis +2 Int or +2 Int +1 Wis, reckless casting: cast spell with expeding spell slot deal max hit dice damge to yourself and use up a hit dice for the level of the spell ?cantrip Detect Magic</p>
 				</div>
 			</div>
 			<div  id="hb-race6", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race6')">👁</button>
+				<div id="sub-race6", class="race-sub-container">
 					<h2 class="race-title">Faun-folk</h2>
 					<p class="race-flav-text">In the heart of enchanted woodlands, the Faun Folk grace the earth with their gentle presence. With legs adorned in elegant deer-like grace, these nature-loving beings embody the harmony between forest and folk.</p>
-					<br>
 					<p class="race-traits-header">Racial Traits</p>
 					<p class="race-traits">+2 Wis, +1 Cha, prof in Nature, Animal handling - Forest Blend. Darkvision. You have advantage on Stealth checks made to hide among foliage, trees and other plant life. free cantrip Shillelagh, Goodberry, animal speak</p>
 				</div>
 			</div>
 			<div  id="hb-race7", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race7')">👁</button>
+				<div id="sub-race7", class="race-sub-container">
 					<h2 class="race-title">Half-Minotaur</h2>
 					<p class="race-flav-text">In the realm of raw power and unyielding stamina, the Minotaurkin stride as living monuments to strength Their mighty presence echoes the enduring spirit of indomitable strength and unyielding resilience.</p>
-					<br>
 					<p class="race-traits-header">Racial Traits</p>
 					<p class="race-traits">+1 Con +2 Str or +2 Con +1 Str, herbovore - you can eat grass and plants instead of rations, powerful build, build for endurance +1 hp for each level,# minotaur's might - you accumulate a level of exaustion in exchange for an automatic critical sucess on a strenght, endurance or attack(if you manage to hit you can declare) (dm descression is advised),minotaur's endurance 12 levels of exaustion instead of 6 -1 lvl exaustion on a short rest, Charge - if you move 20ft straight and hit the target with your horns target takes extra 1d6dmg and must make DC11+your str modif. or be knocked prone- NERF</p>
 				</div>
 			</div>
 			<div  id="hb-race8", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race8')">👁</button>
+				<div id="sub-race8", class="race-sub-container">
 					<h2 class="race-title">Chimera</h2>
 					<p class="race-flav-text">Chimera are the embodiment of versitility.These daring beings harbor an insatiable thirst for danger. With a devil-may-care spirit, they revel in the thrill of the unknown, embodying the chaotic dance between the mundane and the monstrous.</p>
-					<br>
 					<p class="race-traits-header">Racial Traits</p>
 					<p class="race-traits">+2 Dex, prof in acrobatics, stealth, poison, coruption resistance, scorpion stinger tail 1d4 pearce with 1d4 poison poison charges equal to prof modifier, small wings used for gliding, retractable 1d6 slashing damage, Firebreath 1d10 fire damage 15ft line DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus once per long rest. at level (4,8,12,16,20) you can update one of your Chimera Abilities to scale with your level</p>
 				</div> 
 			</div>
 			<div  id="hb-race9", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race9')">👁</button>
+				<div id="sub-race9", class="race-sub-container">
 					<h2 class="race-title">Vulpes/Kitsune</h2>
 					<p class="race-flav-text">With tails that flick like whispers and eyes that gleam with sly charisma, these enigmatic beings navigate life's tapestry with a mischievous twinkle, weaving tales of charm and trickery wherever their agile steps may lead</p>
-					<br>
 					<p class="race-traits-header">Racial Traits </p>
 					<p class="race-traits">+2 Cha +1 Wis or +2 Cha +1 Dex, It takes one, to know one prof in deception, insight and persuasion add profficiancy to hearing perception check, cantrip "Minor Illusion" drain life touch target to deal (prof.bonus)D4 necrotic damage and healf for half - once per long rest charm at lvl 5</p>
 				</div> 
 			</div>
 			<div  id="hb-race10", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race10')">👁</button>
+				<div id="sub-race10", class="race-sub-container">
 					<h2 class="race-title">Goat-men</h2>
 					<p class="race-flav-text">High amidst the towering peaks, the Goatkin roam, a savage blend of human and goat, their existence a symphony of barbaric might and ruthless hedonism. With horns that frame faces weathered by mountain winds, they revel in the thrill of conquest and indulgence.</p>
-					<br>
 					<p class="race-traits-header">Racial Traits </p>
 					<p class="race-traits">+1 Str +1 End, +1 Dex -1 Int, Charge - if you move 20ft straight and hit the target with your horns target takes extra 1d6dmg and must make DC11+your str modif. or be knocked pre Mirthful Leaps, savage strikes - can reroll attack 1 dice equal to profficiancy modifier restets ot short rest.</p>
 				</div> 
 			</div>
 			<div  id="hb-race11", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race11')">👁</button>
+				<div id="sub-race11", class="race-sub-container">
 					<h2 class="race-title">Kobold</h2>
 					<p class="race-flav-text">Often relegated to the fringes of society, they endure oppression and enslavement, yet their collective resilience and resourcefulness persist, as the hordes of Kobolds persist in the face of adversity, their sheer numbers a testament to their unwavering spirit in the shadow of mightier races.</p>
-					<br>
 					<p class="race-traits-header">Racial Traits </p>
 					<p class="race-traits">-1 Str,+1 dex - Minor pack tacktics - add prof moddifier when allies are close. Your base walking speed is 25 feet</p>
 				</div> 
 			</div>
 			<div  id="hb-race12", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race12')">👁</button>
+				<div id="sub-race12", class="race-sub-container">
 					<h2 class="race-title">Cat-folk</h2>
 					<p class="race-flav-text"></p>
-					<br>
 					<p class="race-traits-header">Racial Traits </p>
 					<p class="race-traits">+3 Dex. 9 lives you can choose to succeed death saving throll in exchange for one of your nine lives these lives never replenis</p>
 				</div> 
 			</div>
 			<div  id="hb-race13", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race13')">👁</button>
+				<div id="sub-race13", class="race-sub-container">
 					<h2 class="race-title">Monkey-men</h2>
 					<p class="race-flav-text"></p>
-					<br>
 					<p class="race-traits-header">Racial Traits </p>
 					<p class="race-traits">Strangulate - while grappled target takes crushing damage if snake wnats to</p>
 				</div> 
 			</div>
 			<div  id="hb-race14", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race14')">👁</button>
+				<div id="sub-race14", class="race-sub-container">
 					<h2 class="race-title">Harpies</h2>
 					<p class="race-flav-text"></p>
-					<br>
 					<p class="race-traits-header">Racial Traits </p>
 					<p class="race-traits">+1 dex, +1 end</p>
 				</div> 
 			</div>
 			<div  id="hb-race15", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race15')">👁</button>
+				<div id="sub-race15", class="race-sub-container">
 					<h2 class="race-title">Lamias</h2>
 					<p class="race-flav-text"></p>
-					<br>
 					<p class="race-traits-header">Racial Traits </p>
 					<p class="race-traits">Strangulate - while grappled target takes crushing damage if snake wnats to</p>
 				</div> 
 			</div>
 			<div  id="hb-race16", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race16')">👁</button>
+				<div id="sub-race16", class="race-sub-container">
 					<h2 class="race-title">Leporide (bunnypeople)</h2>
 					<p class="race-flav-text"></p>
 					<p class="race-traits-header">Racial Traits </p>
@@ -158,20 +160,13 @@
 				</div> 
 			</div>
 			<div  id="hb-race17", class="race-box">
-				<div class="race-sub-container">
+				<button class="reveal" onclick="toggleRaceVisibility('sub-race17')">👁</button>
+				<div id="sub-race17", class="race-sub-container">
 					<h2 class="race-title">Bear people</h2>
 					<p class="race-flav-text"></p>
 					<p class="race-traits-header">Racial Traits </p>
 					<p class="race-traits"</p>
 				</div> 
-			</div>	
-			<div  id="hb-race18", class="race-box">
-				<div class="race-sub-container">
-					<h2 class="race-title">monkey-men</h2>
-					<p class="race-flav-text"></p>
-					<p class="race-traits-header">Racial Traits </p>
-					<p class="race-traits"</p>
-			</div> 
 			</div>	
 		</div>
 		<div class="container">

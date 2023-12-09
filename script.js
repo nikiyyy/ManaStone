@@ -1,8 +1,8 @@
 const buttonTextMap = {
     'DM': 'WIP',
-    'Wiki': 'Content ffffor Wiki button',
-	'Stories': 'Content for stories button',
-    'About': 'Content for About button',
+    'Wiki': 'WIP',
+	'Stories': 'WIP',
+    'About': 'WIP',
 };
 
 function addFireEffect(element) {
@@ -111,3 +111,13 @@ function createResources() {
 	container.appendChild(document.createElement('br'));
 }
 
+ function toggleRaceVisibility(elementId) {
+    var element = document.getElementById(elementId);
+    
+    // Toggle the visibility by changing the display property
+    if (element.style.display === "none") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  }

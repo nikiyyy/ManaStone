@@ -126,9 +126,45 @@ body {
 	background-image: url('src/img-kobold.jpg');
 	background-size: 100%;
 }
+
+#hb-race12 {
+	background-image: url('src/img-catfolk.jpg');
+	background-size: 100%;
+}
+	
+#hb-race13 {
+	background-image: url('src/img-monkeymen.jpg');
+	background-size: 100%;
+}
+
+#hb-race14 {
+	background-image: url('src/img-harpie.jpg');
+	background-size: 110%;
+}
+
+#hb-race16 {
+	background-image: url('src/img-bunnyfolk.jpg');
+	background-size: 110%;
+}
+
+#hb-race17 {
+	background-image: url('src/img-bearfolk.jpg');
+	background-size: 100%;
+}
+
 .race-sub-container{
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 5px;
 	margin: 25px;
-	width: 50%;
-	height: 80%;
+	height: 90%;
+}
+
+.race-sub-container p{
+	padding: 5px;
+}
+
+.reveal {
+	position: absolute;
+	border-radius: 15px 0px;
+	background-color: red;
 }
