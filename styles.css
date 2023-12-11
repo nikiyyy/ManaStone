@@ -142,6 +142,11 @@ body {
 	background-size: 110%;
 }
 
+#hb-race15 {
+	background-image: url('src/img-lamia.jpg');
+	background-size: 105%;
+}
+
 #hb-race16 {
 	background-image: url('src/img-bunnyfolk.jpg');
 	background-size: 110%;

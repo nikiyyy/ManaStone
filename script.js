@@ -14,7 +14,6 @@ function removeFireEffect(element) {
 		}
 
 
-
 function updateButtonText(button) {
     var buttonText = button.innerText;
 
@@ -27,6 +26,7 @@ function updateButtonText(button) {
         document.getElementById('button-text').innerText = 'Selected Button: ' + buttonText;
     }
 }
+
 function createRules() {
     var container = document.querySelector('#button-text');
 
@@ -45,8 +45,32 @@ function createRules() {
     racesLink.textContent = 'Half natural armour bonus(rounded down) to a maxiumum of 2 to the existing armour you\'re wearing';
     container.appendChild(racesLink);
 	
+	var racesLink = document.createElement('p');
+    racesLink.textContent = 'If youre downed by s critical strike, flip a con to dermine if you get a scar. refer to scar table';
+    container.appendChild(racesLink);
 }
+function createStories() {
+	var container = document.querySelector('#button-text');
 
+    // Clear existing contents of the container
+    container.innerHTML = '';
+
+    var racesLink = document.createElement('p');
+    racesLink.textContent = 'The eternal hatred of the slave';
+    container.appendChild(racesLink);
+
+	var racesLink = document.createElement('p');
+    racesLink.textContent = 'The golden apple';
+    container.appendChild(racesLink);
+	
+	var racesLink = document.createElement('p');
+    racesLink.textContent = 'Just an animal';
+    container.appendChild(racesLink);
+
+	var racesLink = document.createElement('p');
+    racesLink.textContent = 'The curious case of the disappearing city';
+    container.appendChild(racesLink);
+}
 
 function createResources() {
     var container = document.querySelector('#button-text');
@@ -121,3 +145,4 @@ function createResources() {
       element.style.display = "none";
     }
   }
+  
