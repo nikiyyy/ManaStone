@@ -38,13 +38,18 @@ function createRules() {
     container.appendChild(racesLink);
 	
     var racesLink = document.createElement('p');
-    racesLink.textContent = 'If hit while flying you must make DC 8 constitution saving throw or fall from the sky';
+    racesLink.textContent = 'If hit while flying you must make DC 8 constitution saving throw or fall from the sky | you must use bonus action to start flying';
     container.appendChild(racesLink);
 	
 	var racesLink = document.createElement('p');
     racesLink.textContent = 'Half natural armour bonus(rounded down) to a maxiumum of 2 to the existing armour you\'re wearing';
     container.appendChild(racesLink);
 	
+	var racesLink = document.createElement('p');
+    racesLink.textContent = 'off weapon attack is no longer bonus action, but part or main action attack';
+    container.appendChild(racesLink);
+
+
 	var racesLink = document.createElement('p');
     racesLink.textContent = 'If youre downed by s critical strike, flip a con to dermine if you get a scar. refer to scar table';
     container.appendChild(racesLink);
@@ -71,7 +76,17 @@ function createStories() {
     racesLink.textContent = 'The curious case of the disappearing city';
     container.appendChild(racesLink);
 }
+function createAbout() {
+	var container = document.querySelector('#button-text');
 
+    // Clear existing contents of the container
+    container.innerHTML = '';
+
+    var racesLink = document.createElement('p');
+    racesLink.textContent = 'Homebrew rules and races for D&D';
+    container.appendChild(racesLink);
+
+}
 function createResources() {
     var container = document.querySelector('#button-text');
 
