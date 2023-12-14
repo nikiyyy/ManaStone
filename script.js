@@ -1,7 +1,5 @@
 const buttonTextMap = {
-    'DM': 'WIP',
-    'Wiki': 'WIP',
-	'Stories': 'WIP',
+    'DM': 'health calculator | roll dice | random place on grid | general random number gen | keep track of health',
     'About': 'WIP',
 };
 
@@ -53,7 +51,44 @@ function createRules() {
 	var racesLink = document.createElement('p');
     racesLink.textContent = 'If youre downed by s critical strike, flip a con to dermine if you get a scar. refer to scar table';
     container.appendChild(racesLink);
+	
+	var racesLink = document.createElement('p');
+    racesLink.textContent = 'On Crit or Crit fail saving throw, depending on damage type apply different effect on target:';
+    container.appendChild(racesLink);
+	
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Slashing - Apply 1D4 bleed to target for 1D4 tirns';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Piercing - Tripple damage (no modifiers for 2nd and 3rd dice)';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Bludgeoning - Target moved 5ft.(if its equal to attacker size) back attacks agaist it have advantage(off balance)';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Fire - Target is set on fire 1D4 for 1D6 tirns | Can use action to put out flames';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Cold - movement speed is halfed and target has disadvantage on next attack';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Lightning - target is knocked prone';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Thunder - target has Deafened effect for 1D4 tirns and deals 1D4';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Radiant - if Target is Undead, Fiend, Demon target is Incapacitated for 1 tirn(can’t take actions or reactions) and deal 1d4 radiant dmg';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'psychic - roll 1D20 if you roll 20 target head explodes';
+	container.appendChild(racesLink);
+	var racesLink = document.createElement('li');
+    racesLink.textContent = 'Necrotic - Deal 1D4 necrotic damage to target for 1D4 tirns';
+	container.appendChild(racesLink);
 }
+
+
 function createStories() {
 	var container = document.querySelector('#button-text');
 
@@ -76,6 +111,8 @@ function createStories() {
     racesLink.textContent = 'The curious case of the disappearing city';
     container.appendChild(racesLink);
 }
+
+
 function createAbout() {
 	var container = document.querySelector('#button-text');
 
@@ -87,6 +124,8 @@ function createAbout() {
     container.appendChild(racesLink);
 
 }
+
+
 function createResources() {
     var container = document.querySelector('#button-text');
 
@@ -149,6 +188,7 @@ function createResources() {
     container.appendChild(document.createElement('br'));
 	container.appendChild(document.createElement('br'));
 }
+
 
  function toggleRaceVisibility(elementId) {
     var element = document.getElementById(elementId);
