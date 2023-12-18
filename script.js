@@ -56,6 +56,10 @@ function createRules() {
     racesLink.textContent = 'On Crit or Crit fail saving throw, depending on damage type apply different effect on target:';
     container.appendChild(racesLink);
 	
+	var racesLink = document.createElement('p');
+    racesLink.textContent = 'None lethal arracks deal half damage';
+    container.appendChild(racesLink);
+	
 	var racesLink = document.createElement('li');
     racesLink.textContent = 'Slashing - Apply 1D4 bleed to target for 1D4 tirns';
 	container.appendChild(racesLink);
